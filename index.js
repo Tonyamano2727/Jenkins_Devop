@@ -5,7 +5,7 @@ const app = express();
 
 async function main() {
   await mongoose.connect('mongodb+srv://PcHuy:1hHnRQtOIxxA6sTZ@cluster0.idi4juk.mongodb.net/devop_mongoosee?retryWrites=true&w=majority&appName=Cluster0');
-  console.log("Connected to MongoDBBBB");
+  console.log("Connected to MongoDBBBBB");
 }
 ///test
 var productSchema = new mongoose.Schema({
