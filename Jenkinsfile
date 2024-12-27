@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/Tonyamano2727/DevOP.git'
+                git branch: 'master', url: 'https://github.com/Tonyamano2727/Jenkins_Devop.git'
             }
         }
 
