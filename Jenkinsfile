@@ -4,8 +4,8 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'tonne/expressbackend'
         DOCKER_TAG = 'latest'
-        TELEGRAM_BOT_TOKEN = '7856181372:AAEy-Ztmf9qwukKHEiN-_X35nwz2orCUQh0'
-        TELEGRAM_CHAT_ID = '-4773169460'
+        TELEGRAM_BOT_TOKEN = '7285427932:AAHnMcni18atYAn-5toWnmx3SQKDrHC6lcA'
+        TELEGRAM_CHAT_ID = '-4647449896'
     }
 
     stages {
